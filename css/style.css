@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+.eveUp{
+    padding-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-shadow: #aaa;
+    font-size: 25px;
+}
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+.part{
+    width: 26%;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+}
+.part p{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    text-shadow: #666;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.part img{
+    margin-bottom:10px;
+    width: 95%;
+    height: 10em;
+    border-radius: 10px;
+}
+.react{
+    display: flex;
+
+
+}
+.react .name{
+    display: flex;
+}
+.react .name img{
+    order: 1;
+    width: 35px;
+    height: 32px;
+    border: #aaa solid 1px;
+    border-radius: 40%;
+ }
+ .react .name h5{
+    order: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #666;
+    text-transform: capitalize;
+}
+.react .like{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.react .like i,h6{
+    margin-left: 5px;
+    color: #666;
+}
+.react .comment{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.react .comment i,h6{
+    color: #666;
+    margin-left: 5px;
+}
+@media screen and (max-width:930px){
+    .design{
+        flex-direction: column;
+    }
+    .articles{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .part{
+        width: 80%;
+        margin-bottom:  20px;
+    }
+    
+}
